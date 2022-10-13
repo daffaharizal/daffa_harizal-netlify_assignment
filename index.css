@@ -1,0 +1,639 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.color-identity {
+  color: #ee0c32;
+}
+
+.color-identity2 {
+  color: #170003;
+}
+
+.color-identity3 {
+  color: #551a8b !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Inter";
+}
+
+h3 {
+  font-weight: 800;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* Batas */
+
+.container {
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+.banner.satu {
+  margin-bottom: 30px;
+}
+
+.banner.satu p {
+  font-weight: 600;
+  color: #170003;
+  margin-bottom: 5px;
+}
+
+.banner.satu h1 {
+  font-size: 2.2rem;
+  font-family: "inter", sans-serif;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.banner.satu a {
+  background-color: #ee0c32;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.banner.dua img {
+  max-width: 92%;
+  border-radius: 15px;
+}
+
+/* Layanan */
+
+#layananKami {
+  padding: 20px 0;
+}
+
+.layanan {
+  background-color: #ee0c32;
+  color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+#layananKami .layanan i {
+  font-size: 50px;
+  transition: 0.5s;
+}
+
+#layananKami .layanan i:hover {
+  font-size: 55px;
+}
+
+#layananKami h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#layananKami a {
+  background-color: white;
+  color: #7b2130;
+  padding: 7px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Project */
+/* #project {
+  width: 100%;
+  background-color: #ee0c32;
+  padding: 30px 0;
+} */
+
+#project {
+  margin: 15px 0;
+}
+
+#project p {
+  font-weight: 700;
+}
+
+#project h2 {
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+
+#project h2.kami {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+#project .project.satu {
+  margin-bottom: 15px;
+}
+
+#project .project.satu img {
+  max-width: 99%;
+  border-radius: 15px;
+}
+
+#project h2 {
+  margin-bottom: 20px;
+}
+
+#project a {
+  border-radius: 500px;
+}
+
+#project a {
+  padding: 10px 15px;
+  background-color: #ee0c32;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* =================================================================================================== */
+
+/* =================================================================================================== */
+
+#footer {
+  background-color: #ee0c320f;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+#footer img {
+  max-width: 20%;
+}
+
+#project > h2 {
+  text-align: center;
+}
+
+#footer .container {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: auto auto auto;
+}
+
+.footer.satu {
+  padding: 1rem 0;
+}
+
+.footer.satu p {
+  margin: 1rem 0;
+  max-width: 90%;
+}
+
+.footer.dua {
+  padding: 1rem 0;
+}
+
+.footer.tiga {
+  padding: 1rem 0;
+}
+
+.footer.empat {
+  padding: 1rem 0;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 0.8rem;
+}
+
+.header-category {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+aside {
+  background-color: #ee0c32;
+  color: white;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #ee0c32 !important;
+}
+
+aside .container h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.biodata.satu {
+  text-align: center;
+  max-width: 100%;
+  background-color: white;
+  color: #ee0c32;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+
+aside .container .biodata img {
+  max-width: 40%;
+}
+
+aside h3 {
+  font-size: 1.5rem;
+}
+
+aside h4 {
+  font-size: 1.3rem;
+}
+
+aside h4,
+aside h3,
+aside p {
+  padding: 0 10px;
+}
+
+header {
+}
+
+/* nav {
+  display: flex;
+} */
+
+header a {
+  color: #170003;
+  font-weight: 500;
+}
+
+nav img {
+  max-width: 10%;
+}
+
+header .navbar-list {
+  display: none;
+}
+
+/* ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ */
+
+nav ul {
+  position: absolute;
+}
+
+@media (min-width: 600px) {
+  #banner .container {
+    max-width: 94%;
+  }
+
+  .banner {
+    text-align: left;
+  }
+
+  .banner.satu p {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .banner.satu h1 {
+    font-size: 2.5rem;
+    font-family: "inter", sans-serif;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .banner.dua img {
+    max-width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  /* project */
+  #project .project.satu img {
+    max-width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  #project > h2 {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  header {
+    box-shadow: 0 5px 10px #d5d5d5;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  header .navbar-list {
+    display: inline-block;
+  }
+
+  header .navbar-list a:hover {
+    color: #ee0c32;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  #project h2,
+  #layananKami h2 {
+    font-size: 2rem;
+  }
+
+  #banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+
+  }
+
+  #banner a {
+    transition: 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  #banner a:hover {
+    font-size: 18px;
+  }
+
+  .banner {
+    text-align: left;
+  }
+
+  .banner.satu {
+    max-width: 48%;
+  }
+
+  .banner.satu p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .banner.satu h1 {
+    font-size: 2rem;
+    font-family: "inter", sans-serif;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .banner.dua {
+    max-width: 49%;
+    text-align: right;
+  }
+
+  #banner .banner.dua img {
+    max-width: 99%;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  /* Layanan */
+  #layananKami .container {
+    /* display: flex; */
+    justify-content: space-between;
+    max-width: 90%;
+  }
+
+  #layananKami .container a {
+    transition: 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  #layananKami .container a:hover {
+    font-size: 16px;
+  }
+
+  #layananKami h2 {
+    text-align: center;
+  }
+
+  .layanan.satu {
+    max-width: 100%;
+  }
+
+  .layanan.dua {
+    max-width: 100%;
+  }
+
+  .layanan.tiga {
+    max-width: 100%;
+  }
+
+  #project .project.satu img {
+    max-width: 95%;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  #project .container {
+    display: flex;
+  }
+
+  #project .project.satu {
+    max-width: 45%;
+  }
+
+  #project .project.dua {
+    max-width: 55%;
+  }
+
+  #project .project.dua {
+    padding: 0 15px;
+  }
+
+  #project .project.satu img {
+    max-width: 100%;
+  }
+
+  #project a {
+    padding: 10px 15px;
+    background-color: #ee0c32;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+  }
+
+  #project a:hover {
+    font-size: 18px;
+  }
+
+  #footer .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #footer img {
+    max-width: 25%;
+  }
+
+  .my-20 {
+    margin: 20px 0;
+  }
+
+  .mx-10 {
+    margin: 0 10px;
+  }
+
+  .footer.satu {
+    max-width: 40%;
+    padding: 20px;
+  }
+
+  .footer.dua {
+    max-width: 20%;
+    padding: 20px;
+  }
+
+  .footer.tiga {
+    max-width: 20%;
+    padding: 20px;
+  }
+
+  .footer.empat {
+    max-width: 20%;
+    padding: 20px;
+  }
+
+  main {
+    display: flex;
+    padding-right: 30px;
+  }
+
+  #aside.aside {
+    background-color: #ee0c32;
+    color: white;
+    width: 30%;
+    padding: 20px 10px;
+    border-radius: 20px;
+  }
+
+  section.content {
+    max-width: 70%;
+  }
+
+  aside {
+    margin: 0 !important;
+  }
+
+  /* ============== */
+  nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    max-width: 25%;
+  }
+
+  .navbar-list {
+    text-align: right;
+  }
+
+  nav img {
+    max-width: 20%;
+  }
+
+  nav a {
+    text-decoration: none;
+    padding: 5px 15px;
+  }
+}
+
+@media (min-width: 1080px) {
+  #banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner {
+    text-align: left;
+  }
+
+  .banner.satu p {
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 0;
+  }
+
+  .banner.satu h1 {
+    font-size: 2.2rem;
+    font-family: "inter", sans-serif;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .banner.satu a {
+    background-color: #ee0c32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+  }
+
+  #layananKami h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  #project .container {
+    align-items: center;
+  }
+
+  #project .project.dua {
+    padding: 0 20px;
+    min-height: 100%;
+    margin-bottom: 30px;
+  }
+
+  #project h2 {
+    max-width: 75%;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+}
